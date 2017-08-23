@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link href='main.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+<a>
+<img src="logo1.png" alt="RemoCare" />
+</a>
+</h1>
+    <div id="login">
+	
+         <form action="authenticate.php" method="POST" class="login" role="form" data-ajax="false" > 
+		
+          <fieldset class="clearfix">
+
+            <!--<p><span class="fontawesome-user"></span><input type="text" value="Username" onBlur="if(this.value == '') this.value = 'Username'" onFocus="if(this.value == 'Username') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+			<p><span class="fontawesome-user"></span><input type="text" name="username" required placeholder="Username"></p>
+            <!--<p><span class="fontawesome-lock"></span><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+			<p><span class="fontawesome-lock"></span><input type="password" name="password" required placeholder="Password"></p>
+            <p><input type="submit" value="Sign In"></p>
+
+          </fieldset>
+
+        </form>
+
+        <p> Incorrect Username/Password </p>
+
+    </div> <!-- end login -->
+ 
+</div>
+
+<!--<div class="top">  <h3><a href="http://softouchz.com/">www.softouchz.com</a></h3></div>-->
+   
+	
+</body>
+</html>
